@@ -129,3 +129,33 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
+/* plant lovers  */
+.plant-lovers{
+    margin-top: 13rem;
+    display: flex;
+    border: 1px solid steelblue;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: calc(100% - (2*540px)); */
+    position: relative;
+}
+#flower-store{
+    width: 540px;
+}
+#trust-badge{
+    width: 286px;
+    position: absolute;
+    margin-left: 370px;
+    top: -110px;
+}
+
+.plant-lovers-desc{
+    width: 540px;
+}
+.plant-lovers-title{
+    font-size: 50px;
+}
+.plant-lovers-desc p{
+    font-size: 22px;
+}
