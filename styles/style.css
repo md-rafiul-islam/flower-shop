@@ -1,0 +1,94 @@
+/* shared style */
+
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.primary-color-2{
+    color: rgba(0, 0, 0, 0.5);
+}
+.primary-color-3{
+    color: #E95A08;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-link-color-1{
+    color: #8987A1;
+}
+.bold{
+    font-weight: 700;
+}
+
+
+/* nav styles */
+.header{
+    max-width: 1440px;
+    margin: 10px auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav img{
+    max-width: 135px;
+}
+.navbar-elements{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.nav-links ul{
+    display: flex;
+    gap: 3rem;
+}
+.nav-links ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.cart{
+    font-size: 1.3rem;
+}
+
+/* banner style */
+.banner{
+    margin-top: 9.5rem;
+    margin-bottom: 9.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.banner-title{
+    font-size: 4rem;
+}
+.banner-desc p{
+    font-size: 1.3rem;
+}
+
+/* inside body */
+.body{
+    max-width: 1440px;
+    margin: 10px auto;
+}
+
+/* Our plants */
+
+.plant-heading{
+    text-align: center;
+}
+.plant-title h2{
+    font-size: 3.1rem;
+}
