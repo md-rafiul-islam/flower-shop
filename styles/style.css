@@ -97,8 +97,9 @@
 
 /* card styles */
 
-.card{
-    width: 16rem;
+/* ekhane kisu ekta hoy ni */
+.card{  
+    width: 22rem;
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -106,7 +107,7 @@
     align-items: center;
 }
 .card img{
-    width: 16rem;
+    width: 100%;
 }
 .card-name{
     font-size: 1.3rem;
@@ -123,4 +124,8 @@
     font-weight: 600;
     padding: 1rem 3.6rem;
     border: none;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
