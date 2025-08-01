@@ -1,7 +1,7 @@
 /* shared style */
-/* .hide{
+.hide {
   display: none;
-} */
+}
 
 .noto-serif-font {
   font-family: "Noto Serif", serif;
@@ -190,19 +190,18 @@ main {
 .discount-2 {
   width: 100%;
   border-radius: 22px;
-  position: relative;
 }
 
 /* news letter */
 footer {
-  margin: 0 auto;
+  margin: 10 auto;
   margin-top: 120px;
 }
 .news-letter {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 540px;
+  height: 33rem;
   background-image: url("../assets/news-letter-bg.png");
   background-size: cover;
   justify-content: center;
@@ -210,21 +209,21 @@ footer {
   margin: 0 auto;
 }
 .news-letter-title {
-  font-size: 50px;
+  font-size: 3rem;
   color: white;
 }
 .news-letter input {
-  width: 644px;
-  height: 50px;
-  font-size: 16px;
-  padding-left: 20px;
+  width: 40rem;
+  height: 3rem;
+  font-size: 1rem;
+  padding-left: 1.3rem;
 }
 .news-letter button {
-  height: 50px;
-  width: 186px;
+  height: 3rem;
+  width: 11rem;
   background-color: #e95a08;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   border: none;
 }
@@ -233,7 +232,7 @@ footer {
   align-items: center;
 }
 
-.footer {
+.footer-bar {
   width: 1140px;
   display: flex;
   justify-content: space-between;
@@ -264,4 +263,73 @@ footer {
 .footer-logo img {
   width: 36px;
   height: 36px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 576px) {
+  .nav-links {
+    display: none;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-title {
+    font-size: 1.4rem;
+  }
+  .banner-desc p {
+    font-size: 0.9rem;
+  }
+  .banner img {
+    width: 100%;
+  }
+
+  /* card */
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+  }
+
+  /* plant lovers */
+  #trust-badge {
+    display: none;
+  }
+  .plant-lovers {
+    flex-direction: column;
+    width: 100%;
+  }
+  .plant-lovers-imgs {
+    width: 100%;
+  }
+  #flower-store {
+    width: 100%;
+  }
+  .plant-lovers-desc {
+    width: 100%;
+  }
+
+  /* discount */
+  /* .discount{
+    flex-direction: column;
+  }
+  .discount-1{
+    flex-direction: column;
+    gap: 0.9rem;
+  } */
+
+  /* footer */
+  .news-letter {
+    width: 100%;
+  }
+  .footer-bar {
+    flex-direction: column;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .links-col ul {
+    flex-direction: column;
+  }
 }
