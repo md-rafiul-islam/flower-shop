@@ -18,7 +18,8 @@
     />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body>
+
+  <body class="body">
     <header class="header">
       <nav class="nav">
         <img src="/assets/logo.png" alt="Logo" />
@@ -35,26 +36,21 @@
       </nav>
       <section class="banner">
         <div class="banner-text">
-          <div class="banner-title noto-serif-font">
-            <h1>ALWAYS <span class="primary-color-3">FRESH</span></h1>
-          </div>
-          <div class="banner-title noto-serif-font">
-            <h1><span class="primary-color-3">FLOWERS</span></h1>
-          </div>
-          <div class="banner-desc">
-            <p class="inter-font primary-color-2">
-              Indulge your senses with the beauty and fragrance of our fresh
-              flower shop. From classic roses to exotic blooms, we offer a wide
-              variety of fresh flowers that are perfect for any occasion.
-            </p>
-          </div>
+          <h1 class="banner-title noto-serif-font">
+            ALWAYS <span class="primary-color-3">FRESH <br />FLOWERS</span>
+          </h1>
+          <p class="banner-desc inter-font primary-color-2">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
         </div>
-        <div>
-          <img src="assets/hero-flower.png" alt="" />
-        </div>
+
+        <img src="assets/hero-flower.png" alt="" />
       </section>
     </header>
-    <body class="body">
+
+    <main class="">
       <section class="plants">
         <div class="plant-heading">
           <div class="plant-title">
@@ -170,30 +166,66 @@
       </section>
 
       <!-- undone -->
-      <section class="discount">  
+      <section class="discount">
         <div class="discount-1">
           <img src="assets/deal-ana.png" alt="" />
-          <img
-            src="assets/deal-bloom.png"
-            alt=""
-          />
+          <img src="assets/deal-bloom.png" alt="" />
         </div>
         <img class="discount-2" src="assets/deal-zabo.png" alt="" />
       </section>
+    </main>
 
-      
-      <footer>
-        <section class="news-letter">
-            <h1 class="news-letter-title noto-serif-font">Join the colorful Bunch</h1>
+    <footer>
+      <section class="news-letter">
+        <h1 class="news-letter-title noto-serif-font">
+          Join the colorful Bunch
+        </h1>
         <div>
-          <input type="email" placeholder="Write email" name="email" id="">
+          <input type="email" placeholder="Write email" name="email" id="" />
           <label for="email"></label>
 
           <button class="inter-font">Subscribe</button>
-          </div>
-        
+        </div>
       </section>
-      </footer>
-    </body>
+
+      <div class="footer">
+        <div class="footer-details primary-color-2">
+          <img src="assets/logo.png" alt="" />
+          <p class="inter-font">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop.
+          </p>
+        </div>
+        <div class="footer-links">
+          <div class="links-col">
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Blog</li>
+              <li>FAQ</li>
+              <li>Contuct Us</li>
+            </ul>
+          </div>
+          <div class="links-col">
+            <ul>
+              <li>Features</li>
+              <li>Pricing</li>
+              <li>Privacy Policy</li>
+              <li>Terms of Service</li>
+              <li>Help Center</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-logo">
+          <img src="assets/icon-linkedin.png" alt="" /><img
+            src="/assets/icon-twitter.png"
+            alt=""
+          /><img src="assets/icon-facebook.png" alt="" /><img
+            src="/assets/icon-youtube.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

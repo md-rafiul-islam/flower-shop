@@ -1,11 +1,13 @@
 /* shared style */
+/* .hide{
+  display: none;
+} */
 
-.noto-serif-font{
+.noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 .inter-font {
@@ -14,225 +16,252 @@
   font-style: normal;
 }
 
-.primary-color-2{
-    color: rgba(0, 0, 0, 0.5);
+.primary-color-2 {
+  color: rgba(0, 0, 0, 0.5);
 }
-.primary-color-3{
-    color: #E95A08;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-.nav-link-color-1{
-    color: #8987A1;
-}
-.bold{
-    font-weight: 700;
+.primary-color-3 {
+  color: #e95a08;
 }
 
+.nav-link-color-1 {
+  color: #8987a1;
+}
+.bold {
+  font-weight: 700;
+}
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
 
+/* header section */
+.header {
+  width: 1140px;
+  margin: 0 auto;
+}
 /* nav styles */
-.header{
-    max-width: 1440px;
-    margin: 10px auto;
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
+.nav img {
+  max-width: 135px;
 }
-.nav img{
-    max-width: 135px;
+.navbar-elements {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
 }
-.navbar-elements{
-    display: flex;
-    align-items: center;
-    gap: 3rem;
+.nav-links ul {
+  display: flex;
+  gap: 3rem;
 }
-.nav-links ul{
-    display: flex;
-    gap: 3rem;
+.nav-links ul li {
+  list-style: none;
+  font-size: 1.3rem;
 }
-.nav-links ul li{
-    list-style: none;
-    font-size: 1.3rem;
-}
-.cart{
-    font-size: 1.3rem;
+.cart {
+  font-size: 1.3rem;
 }
 
 /* banner style */
-.banner{
-    margin-top: 9.5rem;
-    margin-bottom: 9.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
+.banner {
+  margin-top: 9.5rem;
+  margin-bottom: 9.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 
-.banner-title{
-    font-size: 4rem;
+.banner-title {
+  font-size: 3rem;
 }
-.banner-desc p{
-    font-size: 1.3rem;
+.banner-desc p {
+  font-size: 1.3rem;
 }
 
-/* inside body */
-.body{
-    max-width: 1440px;
-    margin: 10px auto;
+/* main */
+main {
+  width: 1140px;
+  margin: 0 auto;
 }
 
 /* Our plants */
-
-.plant-heading{
-    text-align: center;
-    max-width: 55rem;
-    margin: 0 auto;
+.plant-heading {
+  text-align: center;
+  max-width: 55rem;
+  margin: 0 auto;
 }
-.plant-title h2{
-    font-size: 3.1rem;
+.plant-title h2 {
+  font-size: 3.1rem;
 }
 
 /* card styles */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+}
 
-/* ekhane kisu ekta hoy ni */
-.card{  
-    width: 22rem;
-    margin-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    gap:0.6rem;
-    align-items: center;
+.card {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.card img{
-    width: 100%;
+.card img {
+  width: 100%;
 }
-.card-name{
-    font-size: 1.3rem;
-    font-weight: 500;
+.card-name {
+  font-size: 1.3rem;
+  font-weight: 500;
 }
-.flower-price{
-    font-size: 1.3rem;
+.flower-price {
+  font-size: 1.3rem;
 }
-.cart_btn{
-    width: 100%;
-    color: white;
-    background-color: #E95A08;
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 1rem 3.6rem;
-    border: none;
-}
-.card-grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.cart_btn {
+  width: 100%;
+  color: white;
+  background-color: #e95a08;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 3.6rem;
+  border: none;
 }
 
 /* plant lovers  */
-.plant-lovers{
-    margin-top: 13rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* gap: calc(100% - (2*540px)); */
-    position: relative;
+.plant-lovers {
+  margin-top: 13rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: calc(100% - (2*540px)); */
+  position: relative;
 }
-#flower-store{
-    width: 540px;
+#flower-store {
+  width: 540px;
 }
-#trust-badge{
-    width: 286px;
-    position: absolute;
-    margin-left: 370px;
-    top: -110px;
-}
-
-.plant-lovers-desc{
-    width: 540px;
-}
-.plant-lovers-title{
-    font-size: 50px;
-}
-.plant-lovers-desc p{
-    font-size: 22px;
+#trust-badge {
+  width: 286px;
+  position: absolute;
+  margin-left: 370px;
+  top: -110px;
 }
 
+.plant-lovers-desc {
+  width: 540px;
+}
+.plant-lovers-title {
+  font-size: 50px;
+}
+.plant-lovers-desc p {
+  font-size: 22px;
+}
 
 /* Latest deals style */
-
-.latest-deals{
-    text-align: center;
-    margin-top: 133px;
+.latest-deals {
+  text-align: center;
+  margin-top: 133px;
 }
-.latest-deals-title{
-    font-size: 50px;
-    margin-bottom: 10px;
+.latest-deals-title {
+  font-size: 50px;
+  margin-bottom: 10px;
 }
-.latest-deals-desc{
-    font-size: 22px;
+.latest-deals-desc {
+  font-size: 22px;
 }
 
 /* discount section */
-
-.discount{
-    margin-top: 120px;
-    display: flex;
-    height: 423px;
-    gap: 20px;
-    display: none;
+.discount {
+  margin-top: 120px;
+  display: flex;
+  height: 423px;
+  gap: 20px;
 }
-.discount-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.discount-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.discount-1 img{
-    border-radius: 14px;
+.discount-1 img {
+  border-radius: 14px;
 }
-.discount-2{
-    width: 100%;
-    border-radius: 22px;
-    position: relative;
+.discount-2 {
+  width: 100%;
+  border-radius: 22px;
+  position: relative;
 }
-
 
 /* news letter */
-footer{
-    width: 1144px;
-    margin: 0 auto;
+footer {
+  margin: 0 auto;
+  margin-top: 120px;
 }
-.news-letter{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 540px;
-    background-image: url("../assets/news-letter-bg.png");
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
+.news-letter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 540px;
+  background-image: url("../assets/news-letter-bg.png");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
-.news-letter-title{
-    font-size: 50px;
-    color: white;
+.news-letter-title {
+  font-size: 50px;
+  color: white;
 }
-.news-letter input{
-    width: 644px;
-    height: 50px;
-    font-size: 16px;
+.news-letter input {
+  width: 644px;
+  height: 50px;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.news-letter button {
+  height: 50px;
+  width: 186px;
+  background-color: #e95a08;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+.news-letter > div {
+  display: flex;
+  align-items: center;
+}
 
+.footer {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
 }
-.news-letter button{
-    height: 50px;
-    width: 186px;
-    background-color: #E95A08;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
+.footer-details {
+  width: 359px;
+  font-size: 22px;
 }
-.news-letter > div{
-    display: flex;
-    align-items: center;
+.footer-links {
+  display: flex;
+  gap: 110px;
+}
+
+.links-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.links-col ul li {
+  list-style: none;
+  color: rgba(107, 114, 128, 1);
+}
+.footer-logo {
+  display: flex;
+  gap: 24px;
+}
+.footer-logo img {
+  width: 36px;
+  height: 36px;
 }
